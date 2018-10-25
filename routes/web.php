@@ -25,3 +25,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 * Ruta ejemplo1, para poder acceder desde una url
 */
 Route::get('comprobarnombre', 'EstudianteController@comprobarNombre')->name('ejemplo1');
+Route::get('validar', 'EstudianteController@validarNombre')->name('validarNombre');
