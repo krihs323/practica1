@@ -25,7 +25,7 @@
                               <input type="text" name="nombre_apellido" class="form-control" required>
                               <input type="hidden" name="_token" value="{{ csrf_token() }}" id="token">
                         </div>
-                        <input type="submit" value="Guardar" class="btn btn-primary">
+                        <input type="submit" value="Validar" class="btn btn-primary">
                       </form>
                     </div>
               </div>
