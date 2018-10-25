@@ -19,7 +19,7 @@
                 @endif
                     <div class="tab-content">
                          <h1>Ejemplo 1</h1>
-                      <form method="POST" action="http://localhost/practica/public/guardar" accept-charset="UTF-8" enctype="multipart/form-data">
+                      <form method="GET" action="{{url('/')}}/validar" accept-charset="UTF-8" enctype="multipart/form-data">
                         <div class="form-group">
                               <label for="nombre_apellido">Nombre:</label>
                               <input type="text" name="nombre_apellido" class="form-control" required>
