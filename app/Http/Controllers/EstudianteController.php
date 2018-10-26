@@ -15,7 +15,7 @@ class EstudianteController extends Controller
       //Session::flash('message-error','El deudor es menor de edad');
       $nombre_apellido = $request["nombre_apellido"];
       
-      Session::flash('message','El nonbre es '.$nombre_apellido);
+      Session::flash('message','El nombre es '.$nombre_apellido);
       return redirect()->to('comprobarnombre');
     }
 }
